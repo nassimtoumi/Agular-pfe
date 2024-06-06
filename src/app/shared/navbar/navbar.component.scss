@@ -1,0 +1,37 @@
+/* Assurez-vous que le conteneur de la navigation utilise Flexbox */
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments aux extrémités du conteneur */
+    align-items: center; /* Alignement vertical */
+    width: 100%; /* Utilise toute la largeur du conteneur */
+}
+
+/* Centre les liens de navigation principaux */
+.navbar-nav.mx-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Permet aux liens de prendre tout l'espace au centre */
+}
+
+/* Style spécifique pour les liens sociaux */
+.social-links {
+    display: flex;
+    justify-content: flex-end; /* Aligner les liens sociaux à droite */
+}
+
+.nav-item {
+    margin: 0 10px; /* Espacement uniforme entre les liens */
+}
+
+.nav-link {
+    color: #fff; /* Couleur des liens, ajustez selon votre thème */
+}
+
+.nav-link i {
+    font-size: 16px; /* Taille des icônes des réseaux sociaux */
+}
+
+
+
+
