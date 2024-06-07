@@ -14,6 +14,7 @@ import { ComponentsComponent } from './components.component';
 import { NotificationComponent } from './notification/notification.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
+import { SoundWaveComponent } from './sound-wave/sound-wave.component';
 
 @NgModule({
     imports: [
@@ -32,7 +33,8 @@ import { NgbdModalContent } from './modal/modal.component';
         NucleoiconsComponent,
         NotificationComponent,
         NgbdModalComponent,
-        NgbdModalContent
+        NgbdModalContent,
+        SoundWaveComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]

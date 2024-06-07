@@ -121,17 +121,7 @@
       }
     }
   },
-  "defaultProject": "pk2-angular",
-  "schematics": {
-    "@schematics/angular:component": {
-      "prefix": "app",
-      "styleext": "scss"
-    },
-    "@schematics/angular:directive": {
-      "prefix": "app"
-    }
-  },
   "cli": {
-    "analytics": false
+    "analytics": "a0a288fe-eb41-4876-be98-41a0c7fd7751"
   }
 }
